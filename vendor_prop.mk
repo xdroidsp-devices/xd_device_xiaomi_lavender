@@ -209,7 +209,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
-    ro.surface_flinger.max_virtual_display_dimension=4096
+    ro.surface_flinger.max_virtual_display_dimension=4096 \
+    debug.sf.disable_backpressure=1
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
