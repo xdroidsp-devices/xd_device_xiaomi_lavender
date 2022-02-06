@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/weeb_lavender.mk
+    $(LOCAL_DIR)/xdroid_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    weeb_lavender-user \
-    weeb_lavender-userdebug \
-    weeb_lavender-eng
+    xdroid_lavender-user \
+    xdroid_lavender-userdebug \
+    xdroid_lavender-eng
