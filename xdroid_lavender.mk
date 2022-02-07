@@ -26,6 +26,11 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common xdroidsp stuff
 $(call inherit-product, vendor/xdroid/config/common.mk)
+XDROID_BOOT_DARK := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
