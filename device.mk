@@ -332,6 +332,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Config Store
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Perfd (dummy)
 PRODUCT_PACKAGES += \
     libqti-perfd-client
