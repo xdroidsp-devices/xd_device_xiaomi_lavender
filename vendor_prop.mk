@@ -137,7 +137,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     vendor.display.enable_default_color_mode=0 \
     ro.vendor.display.cabl=0 \
-    debug.force_no_blanking=true \
     debug.sdm.support_writeback=0
 
 # DRM
