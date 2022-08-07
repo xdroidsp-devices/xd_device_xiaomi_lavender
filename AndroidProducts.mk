@@ -23,9 +23,9 @@
 
 # Inherit Redmi Note 7 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_lavender.mk
+    $(LOCAL_DIR)/xdroid_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_lavender-eng \
-    arrow_lavender-userdebug \
-    arrow_lavender-user
+    xdroid_lavender-user \
+    xdroid_lavender-userdebug \
+    xdroid_lavender-eng
