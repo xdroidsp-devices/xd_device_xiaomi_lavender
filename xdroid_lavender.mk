@@ -26,7 +26,6 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common xdroidsp stuff
 $(call inherit-product, vendor/xdroid/config/common.mk)
-XDROID_BOOT := 1080
 XDROID_MAINTAINER := omar
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
